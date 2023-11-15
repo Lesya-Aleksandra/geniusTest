@@ -1,0 +1,125 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); 
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'); 
+    }
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+address {
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+.link {
+    
+    color:#faf4ea ;
+    text-decoration: none;
+}
+.link:hover {
+    color:#819b57 ;
+    font-weight: 600px;
+}
+.button {
+    color: #faf4ea;
+    background-color: #819b57;
+    border: 2px solid #819b57;
+    cursor: pointer;
+}
+.button:hover {
+    color:#465929 ;
+    background-color: transparent;
+}
+.hero-title {
+    text-align: center;
+    font-weight: 900;
+}
+.hero-title .text-brand {
+    color: #819b57;
+}
+.advantages-list {
+    background-color: #465929;
+}
+.advantages-item {
+    font-weight: 300px;
+    font-size: 20px;
+    color: #faf4ea;
+}
+.section-title {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+.accent {
+        color: #465929;
+}
+
+.traditions-text .uppercase {
+    text-transform: uppercase;
+}
+.traditions-text .brand {
+    color: #819b57;
+    font-weight: 600;
+}
+.chef-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+.format-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+.format-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+.address-link {
+    color:#faf4ea ;
+    font-size:16px;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+.address-link:hover {
+    color: #819b57;
+}
+.address-copyright {
+    font-size:14px ;
+
+}
+/* primary-dark: #31261a;
+primary-light: #faf4ea;
+brand-dark: #465929;
+brand-light: #819b57; */
